@@ -23,7 +23,7 @@ imagesc(ORG); axis image; % 画像の表示
 
 題意より、4パターンの閾値を50,100,150,200に設定して、画像を2値化した。
 
-パターン①
+■パターン①
 閾値：50
 
 以下プログラムによって輝度値が50以上の画素を1，その他を0に変換した。
@@ -64,6 +64,6 @@ imagesc(IMG); colormap(gray); colorbar;
 
 
 ![4階調画像](https://github.com/Tetsupeke/lecture_image_processing/blob/master/image/%E8%AA%B2%E9%A1%8C3%E7%94%BB%E5%83%8F/little_cat_%E9%96%BE%E5%80%A4200.jpg)  
-			図4 閾値：200
+			図5 閾値：200
 
 以上
