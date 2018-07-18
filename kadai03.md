@@ -41,6 +41,10 @@ imagesc(IMG); colormap(gray); colorbar;
 ■パターン②
 閾値：100
 
+IMG = ORG > 100; 
+
+imagesc(IMG); colormap(gray); colorbar;
+
 同様に変換した結果を図3に示す。
 
 
@@ -49,6 +53,10 @@ imagesc(IMG); colormap(gray); colorbar;
 
 ■パターン③
 閾値：150
+
+IMG = ORG > 150; 
+
+imagesc(IMG); colormap(gray); colorbar;
 
 同様に変換した結果を図4に示す。
 
@@ -59,6 +67,10 @@ imagesc(IMG); colormap(gray); colorbar;
 
 ■パターン④
 閾値：200
+
+IMG = ORG > 200; 
+
+imagesc(IMG); colormap(gray); colorbar;
 
 同様に変換した結果を図5に示す。
 
