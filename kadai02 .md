@@ -1,22 +1,22 @@
 
 
+
 # 課題２レポート
 
 標準画像「little_cat.jpg」を原画像とする。
-
 この画像は縦500画像，横333画素による正方形のディジタルカラー画像である。
 
 まず、
 ORG=imread('little_cat.jpg'); % 原画像の入力  
 
 ORG = rgb2gray(ORG); colormap(gray); colorbar;%白黒化
-
 imagesc(ORG); axis image; % 画像の表示
 
 によって、原画像を読み込み白黒画像化した。その結果を図1に示す。
 
 ![原画像の白黒化](https://github.com/Tetsupeke/lecture_image_processing/blob/master/image/%E8%AA%B2%E9%A1%8C2/little_cat_%E3%83%A2%E3%83%8E%E3%82%AF%E3%83%AD.jpg)  
 			図1 原画像の白黒化
+
 
 
 2階調画像を生成するには、各ピクセルの持つ輝度値を0か1に２分割する必要がある。
