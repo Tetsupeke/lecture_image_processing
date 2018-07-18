@@ -1,17 +1,18 @@
-% ‰Û‘è‚U@‰æ‘œ‚Ì“ñ’l‰»
-% ‰º‹L‚ÌƒvƒƒOƒ‰ƒ€‚ğQl‚É‚µ‚Ä‰æ‘œ‚ğ“ñ’l‰»‚¹‚æD
 
-clear; % •Ï”‚ÌƒI[ƒ‹ƒNƒŠƒA
-ORG=imread('little_cat.jpg'); % Œ´‰æ‘œ‚Ì“ü—Í
+% èª²é¡Œï¼–ã€€ç”»åƒã®äºŒå€¤åŒ–
+% ä¸‹è¨˜ã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’å‚è€ƒã«ã—ã¦ç”»åƒã‚’äºŒå€¤åŒ–ã›ã‚ˆï¼
+
+clear; % å¤‰æ•°ã®ã‚ªãƒ¼ãƒ«ã‚¯ãƒªã‚¢
+ORG=imread('little_cat.jpg'); % åŸç”»åƒã®å…¥åŠ›
 ORG = rgb2gray(ORG);
-imagesc(ORG); colormap(gray); colorbar; % ‰æ‘œ‚Ì•\¦
-pause; % ˆê’â~
+imagesc(ORG); colormap(gray); colorbar; % ç”»åƒã®è¡¨ç¤º
+pause; % ä¸€æ™‚åœæ­¢
 
 
-IMG = ORG>128; % 128‚É‚æ‚é“ñ’l‰»
-imagesc(IMG); colormap(gray); colorbar; % ‰æ‘œ‚Ì•\¦
+IMG = ORG>128; % 128ã«ã‚ˆã‚‹äºŒå€¤åŒ–
+imagesc(IMG); colormap(gray); colorbar; % ç”»åƒã®è¡¨ç¤º
 pause;
 
-IMG = dither(ORG); % ƒfƒBƒU–@‚É‚æ‚é“ñ’l‰»
-imagesc(IMG); colormap(gray); colorbar; % ‰æ‘œ‚Ì•\¦
+IMG = dither(ORG); % ãƒ‡ã‚£ã‚¶æ³•ã«ã‚ˆã‚‹äºŒå€¤åŒ–
+imagesc(IMG); colormap(gray); colorbar; % ç”»åƒã®è¡¨ç¤º
 
