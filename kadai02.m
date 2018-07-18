@@ -1,20 +1,21 @@
-% ‰Û‘è‚Q@ŠK’²”‚Æ‹^Ž——ÖŠs
-% ‚QŠK’²C‚SŠK’²C‚WŠK’²‚Ì‰æ‘œ‚ð¶¬‚¹‚æD
+% èª²é¡Œï¼’ã€€éšŽèª¿æ•°ã¨ç–‘ä¼¼è¼ªéƒ­
+% ï¼’éšŽèª¿ï¼Œï¼”éšŽèª¿ï¼Œï¼˜éšŽèª¿ã®ç”»åƒã‚’ç”Ÿæˆã›ã‚ˆï¼Ž
 
 
-clear; % •Ï”‚ÌƒI[ƒ‹ƒNƒŠƒA
+clear; % å¤‰æ•°ã®ã‚ªãƒ¼ãƒ«ã‚¯ãƒªã‚¢
 
-ORG=imread('little_cat.jpg'); % ‚n‚q‚f‚ÉŒ´‰æ‘œ‚Ì“ü—Í
-ORG = rgb2gray(ORG); colormap(gray); colorbar;%”’•‚É‚µ‚Ä‚¢‚é
-imagesc(ORG); axis image; % ‰æ‘œ‚Ì•\Ž¦
-pause; % ˆêŽž’âŽ~
 
-% ‚QŠK’²‰æ‘œ‚Ì¶¬
-IMG = ORG>128;%0~255‚Ü‚Å‚Ì–¾‚é‚³‚Ì”¼•ª‚Ì’l‚Å‚ ‚é128‚Å‹æØ‚éB128‚æ‚è‘å‚«‚¯‚ê‚Î1AˆÈ‰º‚È‚ç0
+ORG=imread('little_cat.jpg'); % ï¼¯ï¼²ï¼§ã«åŽŸç”»åƒã®å…¥åŠ›
+ORG = rgb2gray(ORG); colormap(gray); colorbar;%ç™½é»’ã«ã—ã¦ã„ã‚‹
+imagesc(ORG); axis image; % ç”»åƒã®è¡¨ç¤º
+pause; % ä¸€æ™‚åœæ­¢
+
+% ï¼’éšŽèª¿ç”»åƒã®ç”Ÿæˆ
+IMG = ORG>128;%0~255ã¾ã§ã®æ˜Žã‚‹ã•ã®åŠåˆ†ã®å€¤ã§ã‚ã‚‹128ã§åŒºåˆ‡ã‚‹ã€‚128ã‚ˆã‚Šå¤§ãã‘ã‚Œã°1ã€ä»¥ä¸‹ãªã‚‰0
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 pause;
 
-% ‚SŠK’²‰æ‘œ‚Ì¶¬
+% ï¼”éšŽèª¿ç”»åƒã®ç”Ÿæˆ
 IMG0 = ORG>64;
 IMG1 = ORG>128;
 IMG2 = ORG>192;
@@ -22,7 +23,7 @@ IMG = IMG0 + IMG1 + IMG2;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 pause;
 
-% ‚WŠK’²‰æ‘œ‚Ì¶¬
+% ï¼˜éšŽèª¿ç”»åƒã®ç”Ÿæˆ
 IMG0 = ORG>32;
 IMG1 = ORG>64;
 IMG2 = ORG>96;
