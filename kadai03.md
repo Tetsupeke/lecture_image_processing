@@ -1,67 +1,69 @@
-# ‰Û‘è3ƒŒƒ|[ƒg
 
-•W€‰æ‘œulittle_cat.jpgv‚ğŒ´‰æ‘œ‚Æ‚·‚éB
+# èª²é¡Œ3ãƒ¬ãƒãƒ¼ãƒˆ
 
-‚±‚Ì‰æ‘œ‚Íc500‰æ‘œC‰¡333‰æ‘f‚É‚æ‚é³•ûŒ`‚ÌƒfƒBƒWƒ^ƒ‹ƒJƒ‰[‰æ‘œ‚Å‚ ‚éB
+æ¨™æº–ç”»åƒã€Œlittle_cat.jpgã€ã‚’åŸç”»åƒã¨ã™ã‚‹ã€‚
 
-‚Ü‚¸A
+ã“ã®ç”»åƒã¯ç¸¦500ç”»åƒï¼Œæ¨ª333ç”»ç´ ã«ã‚ˆã‚‹æ­£æ–¹å½¢ã®ãƒ‡ã‚£ã‚¸ã‚¿ãƒ«ã‚«ãƒ©ãƒ¼ç”»åƒã§ã‚ã‚‹ã€‚
 
-ORG=imread('little_cat.jpg'); % Œ´‰æ‘œ‚Ì“ü—Í  
+ã¾ãšã€
 
-ORG = rgb2gray(ORG); colormap(gray); colorbar;%”’•‰»
+ORG=imread('little_cat.jpg'); % åŸç”»åƒã®å…¥åŠ›  
 
-imagesc(ORG); axis image; % ‰æ‘œ‚Ì•\¦
+ORG = rgb2gray(ORG); colormap(gray); colorbar;%ç™½é»’åŒ–
 
-‚É‚æ‚Á‚ÄAŒ´‰æ‘œ‚ğ“Ç‚İ‚İ”’•‰æ‘œ‰»‚µ‚½B‚»‚ÌŒ‹‰Ê‚ğ}1‚É¦‚·B
+imagesc(ORG); axis image; % ç”»åƒã®è¡¨ç¤º
 
-![Œ´‰æ‘œ‚Ì”’•‰»](https://github.com/Tetsupeke/lecture_image_processing/blob/master/image/%E8%AA%B2%E9%A1%8C3%E7%94%BB%E5%83%8F/little_cat_%E3%83%A2%E3%83%8E%E3%82%AF%E3%83%AD.jpg)  
-			}1 Œ´‰æ‘œ‚Ì”’•‰»
+ã«ã‚ˆã£ã¦ã€åŸç”»åƒã‚’èª­ã¿è¾¼ã¿ç™½é»’ç”»åƒåŒ–ã—ãŸã€‚ãã®çµæœã‚’å›³1ã«ç¤ºã™ã€‚
 
+![åŸç”»åƒã®ç™½é»’åŒ–](https://github.com/Tetsupeke/lecture_image_processing/blob/master/image/%E8%AA%B2%E9%A1%8C3%E7%94%BB%E5%83%8F/little_cat_%E3%83%A2%E3%83%8E%E3%82%AF%E3%83%AD.jpg)  
+			å›³1 åŸç”»åƒã®ç™½é»’åŒ–
+ã€€
+ã€€ã€€
+ã€€
 
+é¡Œæ„ã‚ˆã‚Šã€4ãƒ‘ã‚¿ãƒ¼ãƒ³ã®é–¾å€¤ã‚’50,100,150,200ã«è¨­å®šã—ã¦ã€ç”»åƒã‚’2å€¤åŒ–ã—ãŸã€‚
 
-‘èˆÓ‚æ‚èA4ƒpƒ^[ƒ“‚Ìè‡’l‚ğ50,100,150,200‚Éİ’è‚µ‚ÄA‰æ‘œ‚ğ2’l‰»‚µ‚½B
+ãƒ‘ã‚¿ãƒ¼ãƒ³â‘ 
+é–¾å€¤ï¼š50
 
-ƒpƒ^[ƒ“‡@
-è‡’lF50
-
-ˆÈ‰ºƒvƒƒOƒ‰ƒ€‚É‚æ‚Á‚Ä‹P“x’l‚ª50ˆÈã‚Ì‰æ‘f‚ğ1C‚»‚Ì‘¼‚ğ0‚É•ÏŠ·‚µ‚½B
+ä»¥ä¸‹ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã«ã‚ˆã£ã¦è¼åº¦å€¤ãŒ50ä»¥ä¸Šã®ç”»ç´ ã‚’1ï¼Œãã®ä»–ã‚’0ã«å¤‰æ›ã—ãŸã€‚
 
 IMG = ORG > 50; 
 
 imagesc(IMG); colormap(gray); colorbar;
 
-•ÏŠ·‚µ‚½Œ‹‰Ê‚ğ}2‚É¦‚·B
+å¤‰æ›ã—ãŸçµæœã‚’å›³2ã«ç¤ºã™ã€‚
 
 ![50](https://github.com/Tetsupeke/lecture_image_processing/blob/master/image/%E8%AA%B2%E9%A1%8C3%E7%94%BB%E5%83%8F/little_cat_%E9%96%BE%E5%80%A450.jpg)  
-			}2 è‡’lF50
+			å›³2 é–¾å€¤ï¼š50
 
 
-ƒpƒ^[ƒ“‡A
-è‡’lF100
+ãƒ‘ã‚¿ãƒ¼ãƒ³â‘¡
+é–¾å€¤ï¼š100
 
-“¯—l‚É•ÏŠ·‚µ‚½Œ‹‰Ê‚ğ}3‚É¦‚·B
-
-
-![4ŠK’²‰æ‘œ](https://github.com/Tetsupeke/lecture_image_processing/blob/master/image/%E8%AA%B2%E9%A1%8C3%E7%94%BB%E5%83%8F/little_cat_%E9%96%BE%E5%80%A4100.jpg)  
-			}3 è‡’lF100
-
-ƒpƒ^[ƒ“‡B
-è‡’lF150
-
-“¯—l‚É•ÏŠ·‚µ‚½Œ‹‰Ê‚ğ}4‚É¦‚·B
+åŒæ§˜ã«å¤‰æ›ã—ãŸçµæœã‚’å›³3ã«ç¤ºã™ã€‚
 
 
-![4ŠK’²‰æ‘œ](https://github.com/Tetsupeke/lecture_image_processing/blob/master/image/%E8%AA%B2%E9%A1%8C3%E7%94%BB%E5%83%8F/little_cat_%E9%96%BE%E5%80%A4150.jpg)  
-			}4 è‡’lF150
+![4éšèª¿ç”»åƒ](https://github.com/Tetsupeke/lecture_image_processing/blob/master/image/%E8%AA%B2%E9%A1%8C3%E7%94%BB%E5%83%8F/little_cat_%E9%96%BE%E5%80%A4100.jpg)  
+			å›³3 é–¾å€¤ï¼š100
+
+ãƒ‘ã‚¿ãƒ¼ãƒ³â‘¢
+é–¾å€¤ï¼š150
+
+åŒæ§˜ã«å¤‰æ›ã—ãŸçµæœã‚’å›³4ã«ç¤ºã™ã€‚
 
 
-ƒpƒ^[ƒ“‡C
-è‡’lF200
-
-“¯—l‚É•ÏŠ·‚µ‚½Œ‹‰Ê‚ğ}5‚É¦‚·B
+![4éšèª¿ç”»åƒ](https://github.com/Tetsupeke/lecture_image_processing/blob/master/image/%E8%AA%B2%E9%A1%8C3%E7%94%BB%E5%83%8F/little_cat_%E9%96%BE%E5%80%A4150.jpg)  
+			å›³4 é–¾å€¤ï¼š150
 
 
-![4ŠK’²‰æ‘œ](https://github.com/Tetsupeke/lecture_image_processing/blob/master/image/%E8%AA%B2%E9%A1%8C3%E7%94%BB%E5%83%8F/little_cat_%E9%96%BE%E5%80%A4200.jpg)  
-			}4 è‡’lF200
+ãƒ‘ã‚¿ãƒ¼ãƒ³â‘£
+é–¾å€¤ï¼š200
 
-ˆÈã
+åŒæ§˜ã«å¤‰æ›ã—ãŸçµæœã‚’å›³5ã«ç¤ºã™ã€‚
+
+
+![4éšèª¿ç”»åƒ](https://github.com/Tetsupeke/lecture_image_processing/blob/master/image/%E8%AA%B2%E9%A1%8C3%E7%94%BB%E5%83%8F/little_cat_%E9%96%BE%E5%80%A4200.jpg)  
+			å›³4 é–¾å€¤ï¼š200
+
+ä»¥ä¸Š
