@@ -38,7 +38,7 @@ imagesc(IMG); colormap(gray); colorbar;
 			図2 閾値：50
 
 
-パターン②
+■パターン②
 閾値：100
 
 同様に変換した結果を図3に示す。
@@ -47,7 +47,7 @@ imagesc(IMG); colormap(gray); colorbar;
 ![4階調画像](https://github.com/Tetsupeke/lecture_image_processing/blob/master/image/%E8%AA%B2%E9%A1%8C3%E7%94%BB%E5%83%8F/little_cat_%E9%96%BE%E5%80%A4100.jpg)  
 			図3 閾値：100
 
-パターン③
+■パターン③
 閾値：150
 
 同様に変換した結果を図4に示す。
@@ -57,7 +57,7 @@ imagesc(IMG); colormap(gray); colorbar;
 			図4 閾値：150
 
 
-パターン④
+■パターン④
 閾値：200
 
 同様に変換した結果を図5に示す。
