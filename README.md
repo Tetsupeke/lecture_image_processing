@@ -1,16 +1,13 @@
-(参考)Matlab入門  
-http://www.ns.kogakuin.ac.jp/~ct13050/johogaku/2-2.matlab_getstart.pdf
+15NM505の山田哲也です。
 
-例えば，このようにしてレポートを作成することが可能です．  
-https://github.com/mackhasegawa/lecture_image_processing/blob/master/kadai1.md
+課題を以下の5つ作成しましたので、ご確認のほど宜しくお願い致します。
 
+＜作成課題＞
+・課題1
+・課題2
+・課題3
+・課題4
+・課題6
+(課題5は難しかったため飛ばしました。)
 
-フリー素材
-- https://www.pakutaso.com/ 
-- フリー素材アイドル「MIKA☆RIKA」 http://mika-rika-free.jp/
-
-
-
-
-
-
+以上、よろしくお願いいたします。
